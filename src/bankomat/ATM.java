@@ -12,7 +12,7 @@ public class ATM {
 	
 	/* Main method where this app starts */
 	public static void main(String[] args) {
-		
+		// Input source 
 		Scanner input = new Scanner(System.in);
 
 		// ATM object which represents bank automat
@@ -26,9 +26,9 @@ public class ATM {
 	public void start(Scanner sc) {	
 		
 		System.out.printf("———————————————————————————————————————————————————————————————%n");
-		System.out.printf("****%15sWELCOME TO ATM MASCHINE%10s****%n","","");
+		System.out.printf("****%15sDOBRODOSLI U BANKOMAT%10s****%n","","");
 		System.out.printf("———————————————————————————————————————————————————————————————%n%n");
-		System.out.printf("%15sPlease choose one of the options:%n%n","");
+		System.out.printf("%15sOdaberite jednu od mogucnosti:%n%n","");
 
 		int choose;
 		
